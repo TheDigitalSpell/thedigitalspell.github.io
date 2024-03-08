@@ -28,10 +28,3 @@ You may be able to block cookies via your browser settings but this may prevent 
 Cookies are small digital signature files that are stored by your web browser that allow your preferences to be recorded when visiting the website. Also they may be used to track your return visits to the website.
 
 3rd party advertising companies may also use cookies for tracking purposes.
-
-### Google Ads
-Google, as a third party vendor, uses cookies to serve ads.
-
-Google's use of the DART cookie enables it to serve ads to visitors based on their visit to sites they visit on the Internet.
-
-Website visitors may opt out of the use of the DART cookie by visiting the Google ad and content network privacy policy.

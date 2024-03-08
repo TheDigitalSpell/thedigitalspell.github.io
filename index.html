@@ -10,8 +10,8 @@ background: '/img/bg-index.jpg'
 <div class="rounded mb-5 hero">
   <div class="row align-items-center justify-content-between">
     <div class="col-md-6">
-      <h1 class="font-weight-bold mb-4 serif-font">Let me  teach you how to become successful online</h1>
-      <p class="lead mb-4">My name is Lyam and I'm here to share with you my knowledge and experience of over 10 years of monetizing my blog.</p>
+      <h1 class="font-weight-bold mb-4 serif-font">Crafting Together, Gaming Forever</h1>
+      <p class="lead mb-4">Embark on a gaming journey with <b>The Digital Spell</b>, where solo passion meets the power of collaboration. As the solo developer behind the scenes, I weave dreams into code, while cherished collaborators and friends bring their magic to each project.</p>
       <a href="{{site.baseurl}}/about" class="btn btn-dark text-white px-5 btn-lg">About me</a>
     </div>
     <div class="col-md-6 text-right pl-0 pl-lg-4">
@@ -21,12 +21,12 @@ background: '/img/bg-index.jpg'
 </div>
 {% endif %}
 
-<!-- Featured
+<!-- Featured Posts 
 ================================================== -->
 <section class="row">
   {% for post in site.posts %}
       {% if post.featured == true %}
-          <div class="col-md-4 mb-5">
+          <div class="col-md-6 mb-5">
           {% include postbox.html %}
           </div>
       {% endif %}
@@ -34,14 +34,14 @@ background: '/img/bg-index.jpg'
   </div>
 </section>
 
-<!-- Posts List with Sidebar (except featured)
+<!-- Non-Featured Posts with pagination
 ================================================== -->
 <section class="row">
-  <div class="col-sm-8">
+  <div class="col-sm-12">
     <div class="row">
       {% for post in paginator.posts %}
       {% unless post.featured == true %}
-      <div class="col-md-6 mb-5">
+      <div class="col-md-4 mb-5">
         {% include postbox.html %}
       </div>
       {% endunless %}
@@ -53,8 +53,5 @@ background: '/img/bg-index.jpg'
           {% include pagination.html %}
       </span>
     </div>
-  </div>
-  <div class="col-sm-4">
-    {% include sidebar.html %}
   </div>
 </section>

@@ -9,17 +9,31 @@ post_class: post-template
 ================================================== -->
 
 	<div class="row">
-		
-
 		<!-- Post -->        
-        {% assign author = site.authors[page.author] %}
+		{% if page.featured != true %}
+			{% assign author = site.authors[page.author] %}
+		{% endif %}
         
-		<div class="col-sm-12">
+		<div class="col-sm-8">
             <!-- Post Featured Image -->
-			{% if page.image %}<img class="featured-image img-fluid rounded" src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}">{% endif %}
+			{% if page.image %}
+			<!-- img class="featured-image img-fluid rounded" src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}" -->
+			<div class="rounded mb-5 hero" style="background-color: #{{ page.backgroundcolor }}">
+			  <div class="row align-items-center justify-content-between">
+				<!-- div class="col-md-6">
+				  <h1 class="font-weight-bold mb-4 serif-font">Crafting Together, Gaming Forever</h1>
+				  <p class="lead mb-4">Embark on a gaming journey with <b>The Digital Spell</b>, where solo passion meets the power of collaboration. As the solo developer behind the scenes, I weave dreams into code, while cherished collaborators and friends bring their magic to each project.</p>
+				  <a href="{{site.baseurl}}/about" class="btn btn-dark text-white px-5 btn-lg">About me</a>
+				</div -->
+				<div class="col-md-6">
+				  <img class="intro" width="500" src="{{site.baseurl}}/{{ page.image }}" alt="{{ page.title }}">      
+				</div>
+			  </div>
+			</div>
+			{% endif %}
 			<!-- End Featured Image -->
 			<div class="mainheading">             
-                
+                {% if author %}
                 <!-- Post Categories -->
                 <div class="after-post-tags">
                     <ul class="tags">
@@ -32,7 +46,7 @@ post_class: post-template
                     </ul>
                 </div>
                 <!-- End Categories -->
-                
+                {% endif %}
                 <!-- Post Title -->
 				<h1 class="posttitle">{{ page.title }}</h1> 
                 
@@ -46,6 +60,7 @@ post_class: post-template
                 <div class="clearfix"></div>
 			</div>
 
+            {% if author %}
             <!-- Post Date -->
             <p>
             <small>
@@ -55,8 +70,6 @@ post_class: post-template
                 {% endif %}
                 </small>
             </p>
-            
-			
             
             <!-- Prev/Next -->
             <div class="row PageNavigation mt-4 prevnextlinks d-flex justify-content-between">
@@ -73,36 +86,31 @@ post_class: post-template
             </div>
             <!-- End Prev/Next -->
             
-            
-             <!-- Author Box -->
-                {% if page.author %}				
-				<div class="row post-top-meta">
-					<div class="col-md-2">
-						<img class="author-thumb" src="{{site.baseurl}}/{{author.avatar}}" alt="{{ author.display_name }}">
-					</div>
-					<div class="col-md-10">
-						<a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a><a target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a>
-						<span class="author-description">{{ author.description }}</span>						
-					</div>
-				</div>				
-                {% endif %}
-            
-            
+            <!-- Author Box -->
+			{% if page.author %}				
+			<div class="row post-top-meta">
+				<div class="col-md-2">
+					<img class="author-thumb" src="{{site.baseurl}}/{{author.avatar}}" alt="{{ author.display_name }}">
+				</div>
+				<div class="col-md-10">
+					<a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a><a target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a>
+					<span class="author-description">{{ author.description }}</span>						
+				</div>
+			</div>				
+			{% endif %}
+			
             <!-- Begin Comments
             ================================================== -->
-            <section>
+			<section>
             <div id="comments">                          
                 {% include disqus.html %} 
             </div>
             </section>
             <!--End Comments
             ================================================== -->
-            
-            
+			{% endif %}
 
 		</div>
-		<!-- End Post -->
-
 	</div>
 
 <!-- End Article

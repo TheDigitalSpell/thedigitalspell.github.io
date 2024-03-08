@@ -1,13 +1,13 @@
-title: "Affiliates"
-email: wowthemesnet@gmail.com
+title: "The Digital Spell"
+email: contact@thedigitalspell.com
 timezone: UTC
-baseurl: "/affiliates-jekyll-theme"
+baseurl: ""
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-author: Sal
+author: Pazalla
 paginate: 30
-disqus: 'demowebsite'
+disqus: 'the-digital-spell'
 locale: en_us
 lang: en_us
 feed_items: 10
@@ -20,32 +20,24 @@ kramdown:
 sass:
   sass_dir: _sass
   style: :compressed
-ganalytics: UA-113961478-1
+ganalytics: G-C20SHNW8KG
 
 # Authors
 authors:
-  sal:
-    name: Sal
-    display_name: Sal
-    avatar: 'assets/images/sal.png'
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net/category/jekyll-themes/
-    twitter: https://twitter.com/wowthemesnet
-    description: "Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
-  john:
-    name: John
-    display_name: John
-    avatar: 'assets/images/john.png'
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net/category/jekyll-themes/
-    twitter: https://twitter.com/wowthemesnet
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Affiliates theme demo, a Jekyll template compatible with Github pages."
+  pazalla:
+    name: Pazalla
+    display_name: Pazalla
+    avatar: 'assets/images/avatars/pazalla.png'
+    email: pazalla@thedigitalspell.com
+    web: https://www.thedigitalspell.com/
+    twitter: https://twitter.com/thedigitalspell
+    description: "Founder of The Digital Spell"
 
 # Social
 social:
-  instagram: https://www.instagram.com/bootstrapstarter/
-  facebook: https://www.facebook.com/bootstrapstartercom-346329609045284
-  twitter: https://twitter.com/bstartercom
+  instagram: https://www.instagram.com/thedigitalspell
+  twitter: https://twitter.com/thedigitalspell
+  facebook: https://www.facebook.com/thedigitalspell
 
 # Plugins
 plugins: 
