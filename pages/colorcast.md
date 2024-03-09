@@ -5,7 +5,13 @@ permalink: "/colorcast/"
 image: assets/images/pages/colorcast.svg
 ---
 
-<p><iframe width="552" height="167" frameborder="0" src="https://itch.io/embed/125415"><a href="https://thedigitalspell.itch.io/colorcast">COLORCAST free by The Digital Spell</a></iframe></p>
+<p>
+<div class="itchio-container">
+<iframe width="552" height="167" frameborder="0" src="https://itch.io/embed/125415">
+<a href="https://thedigitalspell.itch.io/colorcast">COLORCAST by The Digital Spell</a>
+</iframe>
+</div>
+</p>
 
 Also available on:
 - [GameJolt](https://gamejolt.com/games/colorcast/238261)
@@ -22,4 +28,12 @@ Meet some of the incredible minds shaping this project:
 - [@Bouga](https://www.linkedin.com/in/borjaouterelo): He was involved in the **COLORCAST** initial design and dedicated supporter, ensuring the community feels connected and valued.
 - [@AlvMartin](https://www.linkedin.com/in/%C3%A1lvaro-mart%C3%ADn-isabel-010456ba): It has made this amazing **COLORCAST** trailer possible:
 
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/w9bzCPZBMcM?si=jqFa6-hBt4H0D5l9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p>
+<div class="youtube-container">
+<iframe width="560" height="315"
+        src="https://www.youtube.com/embed/w9bzCPZBMcM?si=jqFa6-hBt4H0D5l9"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+</iframe>
+</div>
+</p>

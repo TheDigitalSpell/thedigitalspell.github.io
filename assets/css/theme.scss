@@ -542,3 +542,36 @@ span.navigation:before {
 	transition-duration: 0.3s;
     opacity:.8;
 }
+
+.youtube-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
+.youtube-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border:3px solid black;
+}
+
+.itchio-container {
+    position: relative;
+    padding-bottom: 20%;
+    height: 0;
+    overflow: hidden;
+}
+
+.itchio-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border:3px solid black;
+}
