@@ -5,12 +5,16 @@ title:  "COLORCAST - Design Evolution (V)"
 categories: [ COLORCAST, Cocos, Funcional Design ]
 image: assets/images/posts/colorcast_evolution_5.png
 ---
-Welcome to the last edition of the series. After our days in Gamelab 2015 and Gamepolis 2015, several artists gave us tips about how to improve the game’s visuals. Some of the comments were contradictory, but all of them agreed on we needed improve the colors, make them unique to distinguish better the color scheme, tonality & shadows of the smart boxes needed a unification too.
+Greetings from the final installment of the series. Following our time at Gamelab and Gamepolis 2015, a number of artists offered us advice on how to make the game's graphics better.
 
-The tools that we used to resolve these issues were:
+While some of the remarks were contradictory, everyone seemed to agree that the colors needed to be improved and made more distinctive in order to better define the color scheme. The tone and shadows of the smart boxes also needed to be unified.
 
-- [Paletton]() helped us to save a lot of time.
+We employed the following tools to address these problems:
 
-- [Coolors]() helpful too but we used it less than paletton.
+- [Paletton](https://paletton.com) We saved a great deal of time because to this tool.
 
-We hope you enjoyed our Design Evolution series of COLORCAST free. Whether this can be helpful for you or just for entertainment, thanks for reading!
+- [Coolors](https://coolors.co/) Although we utilized it less frequently than paletton, it is still useful.
+
+We sincerely hope you enjoyed our COLORCAST Design Evolution series.
+
+**<em>Thank you for reading, whether you can use this or it's just for fun!</em>**

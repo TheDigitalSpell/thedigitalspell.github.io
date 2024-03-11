@@ -5,4 +5,22 @@ title:  "COLORCAST - Design Evolution (II)"
 categories: [ COLORCAST, Cocos, Funcional Design ]
 image: assets/images/posts/colorcast_evolution_2.png
 ---
-After our failed attempt with Tiled we investigated new editors. In the initial test made with Cocos Studio 2.x we found some issues: incompatibility with the multiresolution system and multiple errors tinting sprites. So we came back to Cocos Studio 1.x version, which was in a better development state in that moment. Little by little we turned Cocos Studio 1.x into our level editor. In order to do that we created templates for different level sizes, as showed in the attached image (7x7 in this case). We can see the next step in the smart box design here too.
+Following our unfortunate try with Tiled, we looked at new editors.
+
+In our early testing with Cocos Studio 2.x, we discovered some difficulties, including incompatibility with the multiresolution system and multiple tinting mistakes.
+
+So we returned to Cocos Studio 1.x, which was under better development at the time.
+
+We gradually integrated Cocos Studio 1.x into our level editor. In order to accomplish so, we prepared templates for various level sizes, as shown in the attached figure (7x7).
+
+We can also see the next phase in **Smart Box** design here.
+
+<p>
+<div class="youtube-container">
+<iframe width="560" height="315"
+        src="https://www.youtube.com/embed/dIU2Jgp4O8g"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+</iframe>
+</div>
+</p>
