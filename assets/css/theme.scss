@@ -30,6 +30,11 @@ body {
 .serif-font {
     font-family:PT Serif;
 }
+
+.sans-font {
+    font-family: "PT Sans",sans-serif;
+}
+
 @media (max-width: 1366px) {
     .container-xl, .container-lg, .container-md, .container-sm, .container {
         width:90%;
