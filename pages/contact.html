@@ -4,20 +4,20 @@ title: Contact
 permalink: "/contact/"
 comments: false
 ---
-<script id="ratufa_loader" src="https://www.ratufa.io/c/ld.js?f=gp0amcvc&n=n1.ratufa.io"></script>
-
 <div class="text-center sans-font">
-<form id="contact_form" name="contact_form" method="POST">    
+<form action="https://formsubmit.co/contact@thedigitalspell.com" method="POST">
 <p class="mb-4">Thank you for your interest in getting in touch with us. Please send your message here. We will reply as soon as possible!</p>
 <div class="form-group row">
 <div class="col-md-6">
-<input class="form-control" type="text" name="name" placeholder="Name*" required>
+<input class="form-control" type="text" name="name" placeholder="Name (*)" required>
 </div>
 <div class="col-md-6">
-<input class="form-control" type="email" name="_replyto" placeholder="E-mail Address*" required>
+<input class="form-control" type="email" name="email" placeholder="Email Address (*)" required>
 </div>
 </div>
-<textarea rows="8" class="form-control mb-3" name="message" placeholder="Message*" required></textarea>    
+<textarea rows="8" class="form-control mb-3" name="message" placeholder="Message (*)" required></textarea>    
 <input class="btn btn-dark text-white px-5 btn-lg" type="submit" value="Send">
+<input type="hidden" name="_autoresponse" value="Thank you for contacting The Digital Spell. One of our team will be in contact with you shortly to assist with your query.">
+<input type="hidden" name="_next" value="{{site.baseurl}}/thanks.html">
 </form>
 </div>
