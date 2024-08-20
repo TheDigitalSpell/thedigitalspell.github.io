@@ -12,6 +12,9 @@ topmenu:
     
     - title: COLORCAST
       url: "colorcast/"
+    
+    - title: Toy Brick
+      url: "toybrick/"
 
 - title: Contact
   url: "contact/"
