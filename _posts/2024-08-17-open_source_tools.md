@@ -45,7 +45,7 @@ Developers can choose assets that meet their project's licensing needs by select
 
 - **[Google Fonts](https://fonts.google.com/): Open Font License (OFL)**
 
-Approval: Fonts provided by Google Fonts are typically shared under the Open Font License (OFL). This license allows the fonts to be utilized, altered, and shared for no cost, as long as they are not sold individually. The fonts can be used in any document or application, even commercially, without any restrictions.
+Fonts provided by Google Fonts are typically shared under the Open Font License (OFL). This license allows the fonts to be utilized, altered, and shared for no cost, as long as they are not sold individually. The fonts can be used in any document or application, even commercially, without any restrictions.
 
 With the OFL, game developers can integrate top-notch typography in games freely, enhancing the visual appeal and readability of the user interface.
 
