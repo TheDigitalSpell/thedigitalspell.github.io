@@ -5,8 +5,11 @@ permalink: "/toybrick/"
 image: assets/images/pages/toybrick.svg
 ---
 
-Available on:
-- [Google Play](https://play.google.com/store/apps/details?id=com.thedigitalspell.gp.craft.build.toy.brick.block)
+<p>
+<a style="display:block;width:200px" href='https://play.google.com/store/apps/details?id=com.thedigitalspell.gp.craft.build.toy.brick.block&pcampaignid=web_share&utm_source=tds_website&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+<img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/>
+</a>
+</p>
 
 **Welcome to Toy Brick, the ultimate family-friendly 2D brick crafting game that combines fun and education!** Perfect for kids, parents, and educators, Toy Brick offers an engaging way to learn essential skills while having a blast.
 
