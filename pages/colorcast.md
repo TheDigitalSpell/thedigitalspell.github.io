@@ -26,7 +26,7 @@ Meet some of the incredible minds shaping this project:
 - [@Platerwind](https://x.com/Platerwind): **COLORCAST** level designer and audio maestro, orchestrating the immersive soundscape that brings worlds to life.
 - [@AtelierPolarite](https://x.com/AtelierPolarite) captivating visuals, turning concepts into stunning realities in the art of **COLORCAST**
 - [@Bouga](https://www.linkedin.com/in/borjaouterelo): He was involved in the **COLORCAST** initial design and dedicated supporter, ensuring the community feels connected and valued.
-- [@AlvMartin](https://www.linkedin.com/in/%C3%A1lvaro-mart%C3%ADn-isabel-010456ba): It has made this amazing **COLORCAST** trailer possible:
+- [@AlvMartin](https://www.linkedin.com/in/%C3%A1lvaro-mart%C3%ADn-isabel-010456ba): He has made this amazing **COLORCAST** trailer possible:
 
 <p>
 <div class="youtube-container">
