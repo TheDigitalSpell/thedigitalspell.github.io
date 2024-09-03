@@ -6,6 +6,12 @@ image: assets/images/pages/colorcast.svg
 ---
 
 <p>
+<a style="display:block;width:300px" href='http://www.amazon.com/gp/product/B01MYNU8G4/ref=mas_pm_colorcast_free'>
+<img alt='Available at Amazon Appstore' style="padding-bottom: 20px;padding-left: 20px;padding-right: 20px;" src='https://images-na.ssl-images-amazon.com/images/G/01/mobile-apps/devportal2/res/images/amazon-appstore-badge-english-black.png'/>
+</a>
+</p>
+
+<p>
 <div class="itchio-container">
 <iframe width="552" height="167" frameborder="0" src="https://itch.io/embed/125415">
 <a href="https://thedigitalspell.itch.io/colorcast">COLORCAST by The Digital Spell</a>
@@ -15,7 +21,6 @@ image: assets/images/pages/colorcast.svg
 
 Also available on:
 - [GameJolt](https://gamejolt.com/games/colorcast/238261)
-- [Amazon](https://www.amazon.com/dp/B01MYNU8G4)
 
 Accept the challenge of the mind to relieve boredom and become a clever brainiac in the abstract yet elegant, immersive and stunning realm of **COLORCAST**. Feel the emotions and push your brain training as you relax in its pleasant environment and improve your spatial skills to find the clever solution.
 

@@ -6,8 +6,14 @@ image: assets/images/pages/toybrick.svg
 ---
 
 <p>
-<a style="display:block;width:200px" href='https://play.google.com/store/apps/details?id=com.thedigitalspell.gp.craft.build.toy.brick.block&pcampaignid=web_share&utm_source=tds_website&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+<a style="display:block;width:300px" href='https://play.google.com/store/apps/details?id=com.thedigitalspell.gp.craft.build.toy.brick.block&pcampaignid=web_share&utm_source=tds_website&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
 <img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/>
+</a>
+</p>
+
+<p>
+<a style="display:block;width:300px" href='http://www.amazon.com/gp/product/B0DFV4TJSC/ref=mas_pm_toy_brick'>
+<img alt='Available at Amazon Appstore' style="padding-bottom: 20px;padding-left: 20px;padding-right: 20px;" src='https://images-na.ssl-images-amazon.com/images/G/01/mobile-apps/devportal2/res/images/amazon-appstore-badge-english-black.png'/>
 </a>
 </p>
 
