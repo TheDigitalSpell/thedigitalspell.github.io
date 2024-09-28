@@ -18,7 +18,7 @@ image: assets/images/pages/toybrick.svg
 </p>
 
 <p>
-<a style="display:block;width:300px" href="{{site.baseurl}}/live/toybrick/index.html" target="_blank" title="Play Now Button Free Download from FreePNGImg.com">
+<a class="d-none d-sm-block" style="display:block;width:300px" href="{{site.baseurl}}/live/toybrick/index.html" target="_blank" title="Play Now Button Free Download from FreePNGImg.com">
 <img src="https://freepngimg.com/thumb/play_now_button/25533-4-play-now-button-free-download.png" alt="Play Now Button Free Download">
 </a>
 </p>
