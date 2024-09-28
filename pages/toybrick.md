@@ -17,6 +17,12 @@ image: assets/images/pages/toybrick.svg
 </a>
 </p>
 
+<p>
+<a style="display:block;width:300px" href="{{site.baseurl}}/live/toybrick/index.html" target="_blank" title="Play Now Button Free Download from FreePNGImg.com">
+<img src="https://freepngimg.com/thumb/play_now_button/25533-4-play-now-button-free-download.png" alt="Play Now Button Free Download">
+</a>
+</p>
+
 **Welcome to Toy Brick, the ultimate family-friendly 2D brick crafting game that combines fun and education!** Perfect for kids, parents, and educators, Toy Brick offers an engaging way to learn essential skills while having a blast.
 
 ### Key Features
