@@ -7,14 +7,7 @@ image: assets/images/posts/2025-02-04.png
 ---
 
 # **Introduction**  
-Bitbucket has announced major changes to its **Free plan**, effective **April 28, 2025**. These updates significantly limit **storage, user access, and key features** for free-tier users. If your workspace exceeds the new limits, you’ll need to either **upgrade to a paid plan** or **migrate to an alternative platform** like GitHub.  
-
-In this guide, we’ll cover:  
-✅ **What’s changing in Bitbucket’s Free plan**  
-✅ **A detailed comparison between Bitbucket and GitHub Free**  
-✅ **Step-by-step instructions to migrate your repositories to GitHub**  
-
----
+Bitbucket has announced major changes to its **Free plan**, effective **April 28, 2025**. These updates significantly limit **storage, user access, and key features** for free-tier users. If your workspace exceeds the new limits, you’ll need to either **upgrade to a paid plan** or **migrate to an alternative platform** like GitHub.
 
 # **What’s Changing in Bitbucket’s Free Plan?**  
 According to an official email from Atlassian, here are the biggest changes affecting **Bitbucket Free** users:  
@@ -102,11 +95,4 @@ Once everything is successfully migrated and tested, you can delete your Bitbuck
 
 # **Conclusion**  
 
-If you’re affected by the **Bitbucket Free plan limitations**, migrating to **GitHub Free** is a smart move.  
-
-✅ **More storage (5 GB vs. 1 GB)**  
-✅ **Unlimited contributors (vs. Bitbucket’s 5-user limit)**  
-✅ **Better CI/CD log retention (indefinite vs. 90 days on Bitbucket)**  
-✅ **No automatic archiving of inactive repositories**  
-
-For individuals, open-source projects, and small teams, GitHub offers **a better long-term free option** with **fewer restrictions** and **more flexibility**.
+If you’re affected by the **Bitbucket Free plan limitations**, migrating to **GitHub Free** is a smart move. For individuals, open-source projects, and small teams, GitHub offers **a better long-term free option** with **fewer restrictions** and **more flexibility**.
