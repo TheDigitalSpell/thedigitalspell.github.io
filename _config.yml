@@ -1,6 +1,7 @@
 title: "The Digital Spell Site"
 email: contact@thedigitalspell.com
 timezone: UTC
+url: "https://thedigitalspell.com"
 baseurl: ""
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
@@ -29,7 +30,7 @@ authors:
     display_name: Pazalla
     avatar: 'assets/images/avatars/pazalla.png'
     email: pazalla@thedigitalspell.com
-    web: https://thedigitalspell.com/
+    web: https://thedigitalspell.com
     twitter: https://twitter.com/thedigitalspell
     description: "The Digital Spell Founder"
 
