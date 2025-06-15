@@ -6,13 +6,15 @@ categories: [ Testing, QA, Tools, Mobile, Android, Guidelines ]
 image: assets/images/posts/2025-06-16.png
 ---
 
-When developing mobile games, testing on real devices can slow down your workflow. Using an Android emulator and command-line tools helps streamline testing and debugging, avoiding the overhead of repeatedly deploying to physical devices. This guide explains how to set up your own Android SDK using official tools from Google, create a virtual device, and install APKs efficiently.
+When developing mobile games, testing on real devices can slow down your workflow. One key advantage of using command-line tools is that you avoid relying on Android Studio, which is often unnecessary for many game engines. By working directly from the terminal, you reduce overhead and gain greater control over your environment.
+
+This guide explains how to set up your own Android SDK using official tools from Google, create a virtual device, and install APKs efficiently—streamlining testing and debugging without the need for a physical device.
 
 # Downloading Android Command-Line Tools
 
 First, download the **command-line tools** package from the [official Android documentation](https://developer.android.com/tools/sdkmanager). This provides a lightweight, version-independent SDK environment, separate from any specific game engine. By keeping this SDK decoupled from game engines, you can maintain consistent builds across projects.
 
-Once downloaded, extract the package and place it in a convenient location (e.g., `C:\android_sdk`). This folder becomes your dedicated SDK directory.
+Once downloaded, extract the package and place it in a convenient location (e.g., `C:\android_sdk`). This folder becomes your dedicated SDK directory. Follow the instructions in the [official Android documentation](https://developer.android.com/tools/sdkmanager) to complete the installation.
 
 Set these environment variables in your system settings:
 
@@ -51,10 +53,10 @@ Navigate to the emulator directory:
 cd %ANDROID_SDK_ROOT%\emulator
 ```
 
-Launch the virtual device:
+Launch the virtual device with the parameters we choose:
 
 ```
-.\emulator.exe -avd pixel_11_API_30 -no-boot-anim -netdelay none -no-snapshot -wipe-data -skin 1080x1920
+emulator.exe -avd pixel_11_API_30 -no-boot-anim -netdelay none -no-snapshot -wipe-data -skin 1080x1920
 ```
 
 If you have multiple devices or want to check existing virtual devices, use:
@@ -67,9 +69,7 @@ If you encounter issues like "PANIC: Missing emulator engine program," ensure yo
 
 # Installing APKs via Command Line
 
-Once your emulator is running and you’ve enabled developer options (including USB debugging) inside the virtual device, you can deploy your APK for testing.
-
-Navigate to the platform-tools directory:
+Once your emulator is running, you can deploy your APK for testing. Navigate to the platform-tools directory:
 
 ```
 cd %ANDROID_SDK_ROOT%\platform-tools
