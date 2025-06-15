@@ -3,7 +3,7 @@ layout: post
 author: pazalla
 title:  "Setting Up an Android Emulator for APK Testing Using Command-Line Tools"
 categories: [ Testing, QA, Tools, Mobile, Android, Guidelines ]
-image: assets/images/posts/2025-06-16.png
+image: assets/images/posts/2025-06-15.png
 ---
 
 When developing mobile games, testing on real devices can slow down your workflow. One key advantage of using command-line tools is that you avoid relying on Android Studio, which is often unnecessary for many game engines. By working directly from the terminal, you reduce overhead and gain greater control over your environment.
