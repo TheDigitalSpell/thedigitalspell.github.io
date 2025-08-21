@@ -3,7 +3,7 @@ layout: post
 author: pazalla
 title:  "Dynamic Backgrounds in Godot 4"
 categories: [ 2D, Visual Effects, Godot, Shader, Programming ]
-image: assets/images/posts/2025-08-22.png
+image: assets/images/posts/2025-08-21.png
 ---
 
 When I first developed this game years ago in **Cocos2d-JS 3**, I wanted to add a dynamic background to make the world feel alive. At the time, I had to settle for two large static images (1024x1024). They looked fine, but they were heavy in memory and ultimately felt flat and uninteresting.
@@ -14,7 +14,7 @@ Now, while rebuilding the game in **Godot 4**, I finally implemented the dynamic
 
 This post walks you through the setup: the **scene structure**, the **shader** that animates the elements, and the **script** that distributes them across the screen.
 
-![Static Background]({{site.baseurl}}/assets/images/posts/2025-08-22.gif)
+![Static Background]({{site.baseurl}}/assets/images/posts/2025-08-21.gif)
 
 # Step 1: Scene Setup
 
