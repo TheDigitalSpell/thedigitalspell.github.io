@@ -3,6 +3,7 @@ layout: page
 title: Privacy Policy
 permalink: /privacy-policy/
 comments: false
+noindex: true
 ---
 
 # Privacy Policy for The Digital Spell's Games

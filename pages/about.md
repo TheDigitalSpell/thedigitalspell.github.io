@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: "/about/"
 image: assets/images/pages/about.svg
+noindex: true
 ---
 
 Embark on a gaming journey with **The Digital Spell**, where solo passion meets the power of collaboration. As the solo developer behind the scenes, I weave dreams into code, while cherished collaborators and friends bring their magic to each project.

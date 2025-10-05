@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Disallow: /thanks.html
+Disallow: /live/
+
+Sitemap: https://thedigitalspell.com/sitemap.xml
