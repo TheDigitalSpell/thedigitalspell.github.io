@@ -18,7 +18,7 @@ Once downloaded, extract the package and place it in a convenient location (e.g.
 
 Set these environment variables in your system settings:
 
-```
+```python
 ANDROID_SDK_ROOT = C:\android_sdk
 %ANDROID_SDK_ROOT%\cmdline-tools\latest\bin
 %ANDROID_SDK_ROOT%\platform-tools
@@ -29,7 +29,7 @@ ANDROID_SDK_ROOT = C:\android_sdk
 
 Open a terminal or PowerShell with administrative permissions. Use `sdkmanager` to install the desired system images:
 
-```
+```shell
 sdkmanager --install "system-images;android-30;google_apis;x86_64"
 ```
 
@@ -39,7 +39,7 @@ Repeat this step for any additional API levels you wish to test, such as Android
 
 Use `avdmanager` to create an emulator based on the system images you downloaded:
 
-```
+```shell
 avdmanager create avd --name "pixel_11_API_30" --device "pixel" --package "system-images;android-30;google_apis;x86_64" --tag "google_apis" --abi "x86_64"
 ```
 
@@ -49,19 +49,19 @@ When prompted about creating a custom hardware profile, choose "no" to use the d
 
 Navigate to the emulator directory:
 
-```
+```shell
 cd %ANDROID_SDK_ROOT%\emulator
 ```
 
 Launch the virtual device with the parameters we choose:
 
-```
+```shell
 emulator.exe -avd pixel_11_API_30 -no-boot-anim -netdelay none -no-snapshot -wipe-data -skin 1080x1920
 ```
 
 If you have multiple devices or want to check existing virtual devices, use:
 
-```
+```shell
 avdmanager list avd
 ```
 
@@ -71,13 +71,13 @@ If you encounter issues like "PANIC: Missing emulator engine program," ensure yo
 
 Once your emulator is running, you can deploy your APK for testing. Navigate to the platform-tools directory:
 
-```
+```shell
 cd %ANDROID_SDK_ROOT%\platform-tools
 ```
 
 Run the following commands:
 
-```
+```shell
 adb kill-server
 adb start-server
 adb devices -l

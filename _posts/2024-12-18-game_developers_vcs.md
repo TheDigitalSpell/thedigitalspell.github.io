@@ -46,7 +46,7 @@ Art assets, such as high-resolution textures, 3D models, and layered image files
 - **Ideal For**: Small to medium projects where simplicity and Git workflows are sufficient.  
 
 **Setup Example**:  
-```bash
+```shell
 git lfs install  
 git lfs track "*.psd" "*.fbx" "*.png"  
 git add .gitattributes  

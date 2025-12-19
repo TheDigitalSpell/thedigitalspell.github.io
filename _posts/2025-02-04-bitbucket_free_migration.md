@@ -53,7 +53,7 @@ If you’ve decided to **migrate from Bitbucket to GitHub**, follow these steps 
 ## **2. Clone Your Bitbucket Repository Locally**  
 To preserve **all branches, commits, and tags**, use the `--mirror` option:  
 
-```sh
+```shell
 git clone --mirror https://bitbucket.org/your-username/repository.git
 ```
 
@@ -62,13 +62,13 @@ This downloads the entire repository, including remote-tracking branches and met
 ## **3. Push the Repository to GitHub**  
 Change to the cloned repository directory:  
 
-```sh
+```shell
 cd repository.git
 ```
 
 Then, update the remote URL to GitHub and push all data:  
 
-```sh
+```shell
 git remote set-url --push origin https://github.com/your-username/repository.git
 git push --mirror
 ```
@@ -79,7 +79,7 @@ This transfers **everything**—branches, commits, and tags—to GitHub.
 - Check your repository on GitHub to confirm all branches and history are intact.  
 - Update local clones to point to GitHub instead of Bitbucket:  
 
-```sh
+```shell
 git remote set-url origin https://github.com/your-username/repository.git
 ```
 

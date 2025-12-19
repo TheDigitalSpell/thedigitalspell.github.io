@@ -66,7 +66,7 @@ The last piece is a script that distributes the shapes across the screen, assign
 
 **dynamic\_background.gd**
 
-```gdscript
+```python
 class_name DynamicBackground
 extends Control
 

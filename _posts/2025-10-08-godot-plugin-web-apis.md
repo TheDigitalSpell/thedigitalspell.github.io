@@ -72,7 +72,7 @@ Let's deconstruct the key components of the `ExternalApiWrapper.gd` script:
 -   `**send_init_message()**` **function**: This is a practical example of sending data _to_ JavaScript. It constructs a dictionary payload, converts it to a JSON string using `JSON.stringify()`, and then executes a JavaScript command in the browser using `JavaScriptBridge.eval()`.
 -   `**_handle_js_message()**` **function**: This is the designated receiver for all incoming messages. It takes the raw string from JavaScript, parses it back into a Godot Dictionary, and then emits the `data_received` signal, delivering the payload to any interested listeners in the game.
 
-```gdscript
+```python
 # File: external_api_wrapper.gd (Set as Autoload/Singleton)
 extends Node
 class_name ExternalApiWrapper
@@ -139,7 +139,7 @@ To ensure users can download a stable, tested version of your plugin, you must u
 
 You can create and push a Git tag from your command line:
 
-```bash
+```shell
 git tag -a v1.0.0 -m "Initial stable release for Godot 4"
 git push origin v1.0.0
 

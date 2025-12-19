@@ -29,16 +29,16 @@ This guide will cover the **complete process**, from **cloning the Godot source 
 Begin by installing [Python 3.10](https://www.python.org/about/gettingstarted/) or a later version to guarantee successful package installation via pip.
 
 **Open PowerShell** and check that pip is correctly installed:
-```
+```shell
 PS C:\Windows\system32> pip --version
 pip 24.2 from C:\Install\Python\Python310\lib\site-packages\pip (python 3.10) 👍
 ```
 To install SCons, continue in PowerShell and run:
-```powershell
+```shell
 PS C:\Windows\system32> pip install scons
 ```
 Finally, check that SCons is correctly installed:
-```
+```shell
 PS C:\Windows\system32> scons --version
 SCons by Steven Knight et al.:
         SCons: v4.9.0.99a8c86de1ce91d23b102520e185c54ebd968924, Sun, 02 Mar 2025 14:04:50 -0700, by bdbaddog on M1Dog2021
@@ -54,12 +54,12 @@ To clone a repository from GitHub, the first thing you need to have installed is
  * Alternatively, you can install [Git directly](https://git-scm.com/downloads) from the official site.
  
 You can check if Git is correctly installed by running:
-```
+```shell
 PS C:\Windows\system32> git --version
 git version 2.43.0.windows.1 👍
 ```
 Next, let’s clone the Godot repository from GitHub:
-```powershell
+```shell
 PS [...]> git clone https://github.com/godotengine/godot.git
 PS [...]> cd godot
 ```
@@ -68,7 +68,7 @@ You're now inside the **Godot project folder** and ready to compile the engine.
 After cloning the repository, list the available tags to identify the **version used by the Godot Editor you're using to develop your game**.
 Then, check out that specific tag into a new branch:
 
-```
+```shell
 PS [...]\godot> git tag -l
 ...
 4.1.3-stable
@@ -111,7 +111,7 @@ module_webxr_enabled = "no"
 👉 [https://godot-build-options-generator.github.io/](https://godot-build-options-generator.github.io/)
 
 **TIP 2**: Alternatively, you can list all available SCons parameters using this command:
-```
+```shell
 PS [...]\godot> scons platform=web target=template_release verbose=1 --help
 scons: Reading SConscript files ...
 ...
@@ -140,19 +140,19 @@ This tells you which other modules it depends on.
 With your configuration set, it's time to build the engine.
 
 ## Clean previous builds:  
-```
+```shell
 PS [...]\godot> scons platform=web target=template_release verbose=1 --clean
 ```
 
 ## Compile the new template:  
-```
+```shell
 PS [...]\godot> scons platform=web target=template_release verbose=1
 ```
 
 This generates a **lighter, optimized template** for **WebGL** inside bin folder. Replace `platform=web` with `linux`, `windows`, or `android` as needed.
 
 **TIP**: Install [Binaryen]() to perform additional optimizations once your custom template has been generated.
-```
+```shell
 PS [...]\godot\bin> wasm-opt godot.web.template_release.wasm32.nothreads.wasm -o godot.web.template_release.wasm32.nothreads.opt.wasm -all --post-emscripten -Oz
 ```
 

@@ -22,7 +22,7 @@ Place the file in a folder where you want to run the conversion.
 
 Open a command prompt (`CMD`) in the folder where `bundletool-all-x.x.x.jar` is located and run the following command (replace paths and passwords accordingly):
 
-```bash
+```shell
 java -jar bundletool-all-x.x.x.jar build-apks \
   --bundle=/path/your/aab/your_app.aab \
   --output=/path/your/aab/your_app.apks \
@@ -41,7 +41,7 @@ Once generated, rename the `app.apks` file to `app.zip` and extract its contents
 
 Inside, you’ll find `universal.apk`. This is the file you can install on your Android device using:
 
-```bash
+```shell
 %ADB_PATH%\adb kill-server
 %ADB_PATH%\adb start-server
 %ADB_PATH%\adb devices -l
