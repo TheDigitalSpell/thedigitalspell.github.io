@@ -8,7 +8,7 @@ noindex: true
 
 # Privacy Policy for The Digital Spell's Games
 
-**Effective Date:** January 25, 2026
+**Effective Date:** January 25th, 2026
 
 Thank you for playing *The Digital Spell's* games. Your privacy is important to us, and we are committed to protecting your personal information. This Privacy Policy explains how we collect, use, and protect the information we receive from players of *The Digital Spell's* games.
 
@@ -48,7 +48,7 @@ The anonymous usage data collected via Google Analytics 4 is stored securely on 
 
 We **do not** knowingly collect Personal Identifiable Information (PII) from children. The only data collected is **non-personal and anonymous** (such as random session IDs and game progress) used exclusively for the support of the internal operations of the game (analytics and functionality). We do not use this data for behavioral advertising or user tracking across other apps.
 
-If you believe we have inadvertently collected personal information from a child, please contact us immediately at [contact@thedigitalspell.com](contact@thedigitalspell.com), and we will delete it.
+If you believe we have inadvertently collected personal information from a child, please contact us immediately at <contact@thedigitalspell.com>, and we will delete it.
 
 ## 5. Changes to This Privacy Policy
 
@@ -56,4 +56,4 @@ We may update this Privacy Policy from time to time, especially if new features 
 
 ## 6. Contact Us
 
-If you have any questions or concerns about this Privacy Policy or the practices of *The Digital Spell's* games, please contact us at: [contact@thedigitalspell.com](contact@thedigitalspell.com)
+If you have any questions or concerns about this Privacy Policy or the practices of *The Digital Spell's* games, please contact us at: <contact@thedigitalspell.com>
