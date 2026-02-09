@@ -2,7 +2,7 @@
 layout: post
 author: pazalla
 title:  "COLORCAST - Design Evolution (V)"
-categories: [ COLORCAST, Cocos, Funcional Design ]
+categories: [ COLORCAST, DevLog, Cocos, Game Design ]
 image: assets/images/posts/colorcast_evolution_5.png
 ---
 Greetings from the final installment of the series. Following our time at Gamelab and Gamepolis 2015, a number of artists offered us advice on how to make the game's graphics better.

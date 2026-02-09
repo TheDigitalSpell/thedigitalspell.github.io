@@ -2,7 +2,7 @@
 layout: post
 author: pazalla
 title:  "COLORCAST - Design Evolution (III)"
-categories: [ COLORCAST, Cocos, Funcional Design ]
+categories: [ COLORCAST, DevLog, Cocos, Game Design ]
 image: assets/images/posts/colorcast_evolution_3.png
 ---
 Today we will explain how the tools are integrated into the COLORCAST project.

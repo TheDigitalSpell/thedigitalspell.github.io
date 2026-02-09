@@ -2,7 +2,7 @@
 layout: post
 author: pazalla
 title:  "COLORCAST - Design Evolution (IV)"
-categories: [ COLORCAST, Cocos, Funcional Design ]
+categories: [ COLORCAST, DevLog, Cocos, Game Design ]
 image: assets/images/posts/colorcast_evolution_4.png
 ---
 This screenshot shows the **Smart Box**'s development up to the final design.

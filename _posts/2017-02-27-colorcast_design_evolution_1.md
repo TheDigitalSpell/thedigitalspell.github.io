@@ -2,7 +2,7 @@
 layout: post
 author: pazalla
 title:  "COLORCAST - Design Evolution (I)"
-categories: [ COLORCAST, Cocos, Funcional Design ]
+categories: [ COLORCAST, DevLog, Cocos, Game Design ]
 image: assets/images/posts/colorcast_evolution_1.png
 ---
 Welcome to the first piece in a series showcasing how the game has progressed.

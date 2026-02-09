@@ -2,7 +2,7 @@
 layout: post
 author: pazalla
 title:  "COLORCAST - Design Evolution (II)"
-categories: [ COLORCAST, Cocos, Funcional Design ]
+categories: [ COLORCAST, DevLog, Cocos, Game Design ]
 image: assets/images/posts/colorcast_evolution_2.png
 ---
 Following our unfortunate try with Tiled, we looked at new editors.
