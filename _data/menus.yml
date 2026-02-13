@@ -15,6 +15,9 @@ topmenu:
     
     - title: Toy Brick
       url: "toybrick/"
+    
+    - title: GeoBots
+      url: "geobots/"
 
 - title: Contact
   url: "contact/"
