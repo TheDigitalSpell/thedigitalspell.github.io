@@ -32,7 +32,7 @@ Start the journey with our very first adventure! Join the GeoBots as they land i
 
 ## Why Choose GeoBots?
 
-In a world full of hyper-stimulating apps, GeoBots offers a breath of fresh air. We prioritize quality over metrics and safety over engagement loops. It is designed to spark curiosity about the world and foster a love for learning, without the dopamine traps.
+GeoBots transforms digital play into a meaningful journey of discovery. We designed this series to nurture your child's natural curiosity, using "Calm Tech" to create deep, focused engagement. It is more than a game; it is a digital passport that opens doors to new cultures, sciences, and wonders, inspiring a lifelong love for learning.
 
 **Join the GeoBots today and give your child a safe passport to explore the world!**
 
