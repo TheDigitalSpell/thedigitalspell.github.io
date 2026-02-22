@@ -16,6 +16,9 @@ topmenu:
     - title: Toy Brick
       url: "toybrick/"
     
+    - title: EquaDeck
+      url: "equadeck/"
+    
     - title: GeoBots
       url: "geobots/"
 
