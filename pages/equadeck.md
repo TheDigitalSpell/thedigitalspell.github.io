@@ -6,6 +6,12 @@ image: assets/images/pages/equadeck.png
 ---
 
 <p>
+<a class="d-none d-sm-block" style="display:block;width:300px" href="https://www.free-learning-games.com/en/game/4520" target="_blank">
+<img src="https://www.free-learning-games.com/logoWordsBlack.svg?v=0.1.0" alt="Play Now Button Free Download from FreePNGImg.com">
+</a>
+</p>
+
+<p>
 <a class="d-none d-sm-block" style="display:block;width:300px" href="{{site.baseurl}}/live/equadeck/index.html" target="_blank">
 <img src="https://freepngimg.com/thumb/play_now_button/25533-4-play-now-button-free-download.png" alt="Play Now Button Free Download from FreePNGImg.com">
 </a>
