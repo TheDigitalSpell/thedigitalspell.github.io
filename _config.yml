@@ -8,7 +8,6 @@ logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 author: Pazalla
 paginate: 30
-disqus: 'the-digital-spell'
 locale: en_us
 lang: en_us
 feed_items: 10
