@@ -1,7 +1,7 @@
 ---
 layout: post
 author: pazalla
-title:  "Automating Godot 4 Android Exports with GitHub Actions (Part 1)"
+title:  "Automating Godot 4 Android Exports with GitHub Actions (I)"
 categories: [ DevOps, Git, GitHub, Android ]
 image: assets/images/posts/2026-03-09.png
 ---
@@ -18,6 +18,7 @@ Before we dive into the YAML file, make sure your repository is ready:
 
 1. **Android Build Template Folder:** Your Godot project must have the Android build template initialized. The `android/` folder must be present and committed to your repository, containing a single file called `.build_version`. *(Note: Our GitHub Action will automatically install the heavy `build/` folder later, keeping your repository lightweight!)*
 2. **Export Preset Name:** We use a fixed preset name `"Android - Google Play"` in our `export_presets.cfg`. If you want to use a different one, keep reading to see where to change it in the workflow.
+3. **Environment File (`.env`):** To ensure the pipeline downloads the exact version of Godot you are using, create a `.env` file in the root of your repository. It should contain a single key defining your Godot version. For example: `GODOT_VERSION=4.5-stable` (make sure it matches the version you are using locally!). *Note: There is no need to define the export template version in this file! Our workflow is smart enough to automatically read it directly from your `android/.build_version` file, keeping everything perfectly synchronized.*
 
 ## Workflow
 
@@ -79,8 +80,8 @@ godot --headless --editor --quit || true
 
 ```
 
-## 🛑 Wait before you push!
+### 🛑 Wait before you push!
 
 **Don't trigger this workflow just yet.** As it stands, this YAML file is only half of the magic. We haven't added the final export commands or the crucial Android Keystore configuration. If you try to run this Action now, it won't generate your `.aab` file.
 
-**Coming up in Part 2:** We have the engine ready and the cache generated. Next, we will tackle the hardest part: securely injecting your Base64 Android Keystore into GitHub Actions and automatically publishing the final `.aab` to your GitHub Releases page!
+**Coming up in [Part 2](/godot-github-actions-2/):** We have the engine ready and the cache generated. Next, we will tackle the hardest part: securely injecting your Base64 Android Keystore into GitHub Actions and automatically publishing the final `.aab` to your GitHub Releases page!
