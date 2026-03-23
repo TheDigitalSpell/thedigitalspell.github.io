@@ -1,7 +1,7 @@
 ---
 layout: post
 author: pazalla
-title:  "Version Control for Code and Art in Games"
+title:  "Game Dev Version Control: Git, Perforce & Managing Large Art Assets"
 categories: [ Development, Guidelines, Management, Versioning ]
 image: assets/images/posts/2024-12-18.png
 ---
@@ -32,10 +32,10 @@ Example:
 ---
 
 ### **2. Art Asset Versioning**  
-Art assets, such as high-resolution textures, 3D models, and layered image files, pose challenges in standard version control tools like Git due to their large size. To manage art effectively:  
+Art assets, such as high-resolution textures, 3D models, layered image files, heavy audio assets and localization/game strings, pose challenges in standard version control tools like Git due to their large size. To manage art effectively:  
 
-- **Keep Original Art Files Separate**: Use a **dedicated repository** for raw art files (e.g., `.psd`, `.kra`, `.blend`).  
-- **Integrate Final Exports with Code**: Store only the **optimized/exported versions** in your main Git repository alongside game code.
+- **Keep Original Art Files Separate**: Use a **dedicated repository** for raw art files (e.g., `.psd`, `.kra`, `.blend`, `.wav`).  
+- **Integrate Final Exports with Code**: Store only the **optimized/exported versions** (e.g., `.png`, `.fbx`, `.ogg`) in your main Git repository alongside game code.
 
 ---
 

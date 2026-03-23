@@ -1,7 +1,7 @@
 ---
 layout: post
 author: pazalla
-title:  "How to Migrate from Bitbucket: A Guide for Free Users Affected by the 2025 Changes"
+title:  "Migrate Bitbucket to GitHub: Step-by-Step (2025 Free Plan Limits)"
 categories: [ Development, Git, Migration, Bitbucket, GitHub ]
 image: assets/images/posts/2025-02-04.png
 ---
