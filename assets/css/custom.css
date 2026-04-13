@@ -4,3 +4,63 @@ Just customize your theme here.
 ================================================== */
 
 body {}
+
+/* --- Custom styles for GitHub Gists --- */
+.gist-wrapper .gist .blob-code-inner,
+.gist-wrapper .gist .blob-code-inner * {
+  /* Apply Fira Code first, and leave the classic ones as fallback */
+  font-family: 'Fira Code', 'Consolas', 'Monaco', monospace !important;
+  font-variant-ligatures: contextual; /* Enable code ligatures */
+  font-size: 14px !important; /* Adjust this value if it looks too big or too small */
+}
+
+/* Optional: To give the wrapper some visual margin on your blog */
+.gist-wrapper {
+  margin-bottom: 2rem;
+}
+
+.gist-author {
+  margin-bottom: 10px;
+}
+
+.gist-author a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: inherit; /* Inherit the text color from your website */
+}
+
+/* --- Gist Copy Button Styles --- */
+.gist-wrapper {
+  position: relative; /* Necesario para que el botón se posicione relativo a este contenedor */
+}
+
+.gist-copy-btn {
+  position: absolute;
+  top: 50px; /* Ajusta esto si el botón se solapa con el autor o el borde del Gist */
+  right: 15px;
+  padding: 5px 10px;
+  background-color: #ffffff;
+  color: #24292f;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.gist-copy-btn:hover {
+  background-color: #f3f4f6;
+  border-color: #1f2328;
+}
+
+.gist-copy-btn.copied {
+  background-color: #2da44e;
+  color: #ffffff;
+  border-color: #2da44e;
+}
