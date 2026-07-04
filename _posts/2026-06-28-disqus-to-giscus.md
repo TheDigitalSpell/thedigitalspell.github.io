@@ -76,25 +76,11 @@ Navigate to your `_includes/` folder and create a new file named `giscus.html`. 
 
 ## 2. Update the Post Layout Node
 
-Open `_layouts/post.html` (or wherever your theme renders comments) and locate the legacy Disqus include block.
+Open `_layouts/post.html` (or wherever your theme renders comments) and locate the line of code responsible for injecting the legacy comment system.
 
-**Search for:**
+Search for the Jekyll **Liquid include tag** that references the old `disqus.html` file. Simply delete that exact line and replace it with a new Liquid include tag that points to your newly created `giscus.html` file.
 
-```html
-{% raw %}
-{% include disqus.html %}
-{% endraw %}
-
-```
-
-**Replace with:**
-
-```html
-{% raw %}
-{% include giscus.html %}
-{% endraw %}
-
-```
+This ensures that the new system inherits the exact same placement within your DOM without messing up the surrounding layout containers.
 
 # Summary
 
